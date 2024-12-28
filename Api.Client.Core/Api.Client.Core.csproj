@@ -20,18 +20,18 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="..\..\..\Api.Client.Core\Api.Client.Core\LICENSE">
-      <Pack>True</Pack>
-      <PackagePath>\</PackagePath>
-    </None>
-    <None Include="..\..\..\Api.Client.Core\Api.Client.Core\README.md">
-      <Pack>True</Pack>
-      <PackagePath>\</PackagePath>
-    </None>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <None Update="LICENSE">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Update="README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>
