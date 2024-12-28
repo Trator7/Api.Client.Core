@@ -5,10 +5,29 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <Description>Library to facilitate API client interactions with web services.</Description>
+    <PackageReleaseNotes>Initial release</PackageReleaseNotes>
+    <RepositoryUrl>https://github.com/Trator7/Api.Client.Core</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <Company />
+    <Authors>Jose Juan Preciado Sanchez</Authors>
   </PropertyGroup>
 
   <ItemGroup>
     <None Remove=".gitignore" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\Api.Client.Core\Api.Client.Core\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\..\..\Api.Client.Core\Api.Client.Core\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
   </ItemGroup>
 
   <ItemGroup>
