@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35013.160
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api.Client.Core", "Api.Client.Core/Api.Client.Core.csproj", "{93A7B8B9-B2FA-4DC0-9F48-0452F3AD64E7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Api.Client.Core", "Api.Client.Core\Api.Client.Core.csproj", "{93A7B8B9-B2FA-4DC0-9F48-0452F3AD64E7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Elementos de la solución", "Elementos de la solución", "{11CF4C0F-0740-422A-A07C-9862861C2B98}"
+	ProjectSection(SolutionItems) = preProject
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
